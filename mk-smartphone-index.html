@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK SMARTPHONE | Quality iPhones</title>
+  <meta name="description" content="MK SMARTPHONE - Quality iPhones at affordable prices. Browse our latest iPhone deals and enquire today.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f7;
+      color: #111;
+      line-height: 1.5;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(255,255,255,.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #ddd;
+    }
+    nav {
+      max-width: 1100px;
+      margin: auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: .5px; }
+    nav a { color: #111; text-decoration: none; margin-left: 18px; font-size: 14px; }
+    .hero {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px 65px;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .eyebrow { color: #555; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 12px; }
+    h1 { font-size: clamp(42px, 7vw, 76px); line-height: .98; margin: 14px 0 22px; }
+    .hero p { max-width: 580px; color: #555; font-size: 18px; }
+    .buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .btn {
+      display: inline-block; padding: 13px 20px; border-radius: 999px;
+      text-decoration: none; font-weight: 700; border: 1px solid #111;
+    }
+    .primary { background: #111; color: white; }
+    .secondary { color: #111; background: white; }
+    .phone-display {
+      min-height: 350px; border-radius: 32px; background: #111;
+      display: grid; place-items: center; position: relative; overflow: hidden;
+    }
+    .phone {
+      width: 150px; height: 285px; border: 7px solid #222; border-radius: 30px;
+      background: linear-gradient(145deg,#dfe5ea,#8f9aa5);
+      box-shadow: 0 25px 55px rgba(0,0,0,.35);
+      position: relative;
+    }
+    .phone:before {
+      content: ""; position: absolute; width: 48px; height: 12px; background:#111;
+      border-radius: 0 0 10px 10px; left: 50%; transform: translateX(-50%); top: -1px;
+    }
+    .camera {
+      position:absolute; left:12px; top:14px; width:48px; height:48px; border-radius:14px;
+      background:#111; box-shadow: inset 0 0 0 6px #555;
+    }
+    section { max-width: 1100px; margin: auto; padding: 55px 20px; }
+    .section-title { font-size: 34px; margin-bottom: 8px; }
+    .section-subtitle { color:#666; margin-bottom: 28px; }
+    .products {
+      display:grid; grid-template-columns:repeat(3,1fr); gap:20px;
+    }
+    .card {
+      background:white; border:1px solid #e1e1e1; border-radius:22px; padding:20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,.05);
+    }
+    .product-image {
+      height:230px; border-radius:16px; background:#eee; display:grid; place-items:center;
+      margin-bottom:18px;
+    }
+    .mini-phone { width:100px; height:190px; border-radius:24px; background:linear-gradient(145deg,#cfd5db,#737e88); border:5px solid #222; }
+    .card h3 { font-size:21px; }
+    .specs { color:#666; font-size:14px; margin:6px 0 12px; }
+    .price { font-size:20px; font-weight:800; margin-bottom:15px; }
+    .card .btn { width:100%; text-align:center; }
+    .why {
+      background:#111; color:white; border-radius:28px; padding:38px;
+      display:grid; grid-template-columns:repeat(3,1fr); gap:25px;
+    }
+    .why p { color:#bbb; margin-top:6px; font-size:14px; }
+    .contact {
+      background:white; border-radius:28px; padding:35px; display:grid;
+      grid-template-columns:1fr 1fr; gap:30px;
+    }
+    .contact p { color:#666; margin:8px 0; }
+    footer { text-align:center; padding:35px 20px; color:#777; font-size:14px; }
+    @media (max-width: 760px) {
+      nav { flex-direction:column; align-items:flex-start; }
+      nav a { margin:0 14px 0 0; }
+      .hero { grid-template-columns:1fr; padding-top:55px; }
+      .products { grid-template-columns:1fr; }
+      .why, .contact { grid-template-columns:1fr; }
+      .phone-display { min-height:300px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">MK SMARTPHONE</div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#iphones">iPhones</a>
+      <a href="#about">Why Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div>
+      <div class="eyebrow">Your smartphone store</div>
+      <h1>Find your next iPhone.</h1>
+      <p>Quality iPhones at competitive prices. Browse our available models and contact MK SMARTPHONE to enquire about your next device.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#iphones">Shop iPhones</a>
+        <a class="btn secondary" href="#contact">Contact Us</a>
+      </div>
+    </div>
+    <div class="phone-display">
+      <div class="phone"><div class="camera"></div></div>
+    </div>
+  </section>
+
+  <section id="iphones">
+    <h2 class="section-title">Featured iPhones</h2>
+    <p class="section-subtitle">Example products — replace the prices and details with your real stock.</p>
+
+    <div class="products">
+      <article class="card">
+        <div class="product-image"><div class="mini-phone"></div></div>
+        <h3>iPhone 11</h3>
+        <div class="specs">64GB • Available • Condition: Good</div>
+        <div class="price">R4,500</div>
+        <a class="btn primary" href="#contact">Enquire Now</a>
+      </article>
+
+      <article class="card">
+        <div class="product-image"><div class="mini-phone"></div></div>
+        <h3>iPhone 12</h3>
+        <div class="specs">128GB • Available • Condition: Excellent</div>
+        <div class="price">R6,500</div>
+        <a class="btn primary" href="#contact">Enquire Now</a>
+      </article>
+
+      <article class="card">
+        <div class="product-image"><div class="mini-phone"></div></div>
+        <h3>iPhone 13</h3>
+        <div class="specs">128GB • Available • Condition: Excellent</div>
+        <div class="price">R8,000</div>
+        <a class="btn primary" href="#contact">Enquire Now</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="why">
+      <div><h3>Quality</h3><p>Show customers clear condition and device details before they enquire.</p></div>
+      <div><h3>Good Prices</h3><p>Display your latest prices and update them whenever your stock changes.</p></div>
+      <div><h3>Easy Enquiries</h3><p>Make it simple for customers to contact you about a phone.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div>
+        <h2 class="section-title">Contact MK SMARTPHONE</h2>
+        <p>Interested in an iPhone? Contact us and tell us which model you want.</p>
+        <p><strong>WhatsApp:</strong> +27 XX XXX XXXX</p>
+        <p><strong>Email:</strong> your@email.com</p>
+      </div>
+      <div>
+        <h3>Business information</h3>
+        <p>Replace the placeholder contact details with your real business details before publishing.</p>
+        <div class="buttons">
+          <a class="btn primary" href="https://wa.me/27XXXXXXXXX">WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 MK SMARTPHONE. All rights reserved.
+</footer>
+
+</body>
+</html>
